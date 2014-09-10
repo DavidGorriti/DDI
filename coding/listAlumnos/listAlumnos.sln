@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "listAlumnos", "listAlumnos\listAlumnos.vbproj", "{B65BF29D-ED1E-4B4C-9C64-03E6B9100F67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B65BF29D-ED1E-4B4C-9C64-03E6B9100F67}.Debug|x86.ActiveCfg = Debug|x86
+		{B65BF29D-ED1E-4B4C-9C64-03E6B9100F67}.Debug|x86.Build.0 = Debug|x86
+		{B65BF29D-ED1E-4B4C-9C64-03E6B9100F67}.Release|x86.ActiveCfg = Release|x86
+		{B65BF29D-ED1E-4B4C-9C64-03E6B9100F67}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
