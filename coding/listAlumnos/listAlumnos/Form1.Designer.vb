@@ -75,6 +75,7 @@ Partial Class Form1
         '
         'btnQuitar
         '
+        Me.btnQuitar.Enabled = False
         Me.btnQuitar.Location = New System.Drawing.Point(138, 136)
         Me.btnQuitar.Name = "btnQuitar"
         Me.btnQuitar.Size = New System.Drawing.Size(134, 34)

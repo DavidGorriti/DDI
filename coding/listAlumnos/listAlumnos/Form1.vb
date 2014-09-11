@@ -1,9 +1,10 @@
 ﻿Public Class Form1
     Dim aAlumnos() As String = {"Unai", "David"}
-    Dim aParticipantes() As String
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
-        loadData()
+        For Each alumno In aAlumnos
+            lstAlumnos.Items.Add(alumno)
+        Next
 
     End Sub
 
@@ -20,12 +21,12 @@
     Private Sub btnAnadir_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnAnadir.Click
 
         If lstAlumnos.SelectedIndex <> -1 Then
-            'TODO'
+            lstParticipantes.Items.Add(lstAlumnos.SelectedItem)
+            lstAlumnos.Items.Remove(lstAlumnos.SelectedItem)
+
         End If
-        lstParticipantes.Items.Add(lstAlumnos.SelectedIndex)
 
 
-        loadData()
 
     End Sub
 
@@ -33,17 +34,17 @@
         btnAnadir.Enabled = True
     End Sub
 
-    Private Sub loadData()
-        For Each alumno In aAlumnos
-            lstAlumnos.Items.Add(alumno)
-        Next
 
-        For Each participante In aParticipantes
-            lstParticipantes.Items.Add(participante)
-        Next
-    End Sub
 
     Private Sub lstParticipantes_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lstParticipantes.SelectedIndexChanged
         btnQuitar.Enabled = True
+    End Sub
+
+    Private Sub btnQuitar_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnQuitar.Click
+        If lstParticipantes.SelectedIndex <> -1 Then
+            lstAlumnos.Items.Add(lstParticipantes.SelectedItem)
+            lstParticipantes.Items.Remove(lstParticipantes.SelectedItem)
+
+        End If
     End Sub
 End Class
