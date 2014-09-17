@@ -9,3 +9,14 @@ C:\Users\admin\Desktop\RepoCebanc1415\DDI\coding\Juego1\Juego1\obj\x86\Debug\Gen
 C:\Users\admin\Desktop\RepoCebanc1415\DDI\coding\Juego1\Juego1\obj\x86\Debug\Juego1.exe
 C:\Users\admin\Desktop\RepoCebanc1415\DDI\coding\Juego1\Juego1\obj\x86\Debug\Juego1.xml
 C:\Users\admin\Desktop\RepoCebanc1415\DDI\coding\Juego1\Juego1\obj\x86\Debug\Juego1.pdb
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Juego1\Juego1\obj\x86\Debug\Juego1.exe
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Juego1\Juego1\obj\x86\Debug\Juego1.xml
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Juego1\Juego1\obj\x86\Debug\Juego1.pdb
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Juego1\Juego1\bin\Debug\Juego1.exe
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Juego1\Juego1\bin\Debug\Juego1.pdb
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Juego1\Juego1\bin\Debug\Juego1.xml
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Juego1\Juego1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Juego1\Juego1\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Juego1\Juego1\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Juego1\Juego1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Juego1\Juego1\obj\x86\Debug\GenerateResource.write.1.tlog
