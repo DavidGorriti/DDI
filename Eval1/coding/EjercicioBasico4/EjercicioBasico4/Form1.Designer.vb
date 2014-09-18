@@ -328,14 +328,14 @@ Partial Class Form1
         Me.txtSIMYER.Location = New System.Drawing.Point(411, 80)
         Me.txtSIMYER.Name = "txtSIMYER"
         Me.txtSIMYER.Size = New System.Drawing.Size(31, 20)
-        Me.txtSIMYER.TabIndex = 24
+        Me.txtSIMYER.TabIndex = 1
         '
         'txtADDAIG
         '
         Me.txtADDAIG.Location = New System.Drawing.Point(411, 105)
         Me.txtADDAIG.Name = "txtADDAIG"
         Me.txtADDAIG.Size = New System.Drawing.Size(31, 20)
-        Me.txtADDAIG.TabIndex = 25
+        Me.txtADDAIG.TabIndex = 2
         '
         'txtFCT
         '
@@ -343,7 +343,7 @@ Partial Class Form1
         Me.txtFCT.Name = "txtFCT"
         Me.txtFCT.ReadOnly = True
         Me.txtFCT.Size = New System.Drawing.Size(31, 20)
-        Me.txtFCT.TabIndex = 26
+        Me.txtFCT.TabIndex = 10
         '
         'txtFOL
         '
@@ -351,7 +351,7 @@ Partial Class Form1
         Me.txtFOL.Name = "txtFOL"
         Me.txtFOL.ReadOnly = True
         Me.txtFOL.Size = New System.Drawing.Size(31, 20)
-        Me.txtFOL.TabIndex = 27
+        Me.txtFOL.TabIndex = 9
         '
         'txtDDAEE4G
         '
@@ -359,35 +359,35 @@ Partial Class Form1
         Me.txtDDAEE4G.Name = "txtDDAEE4G"
         Me.txtDDAEE4G.ReadOnly = True
         Me.txtDDAEE4G.Size = New System.Drawing.Size(31, 20)
-        Me.txtDDAEE4G.TabIndex = 28
+        Me.txtDDAEE4G.TabIndex = 7
         '
         'txtCALIDAD
         '
         Me.txtCALIDAD.Location = New System.Drawing.Point(411, 195)
         Me.txtCALIDAD.Name = "txtCALIDAD"
         Me.txtCALIDAD.Size = New System.Drawing.Size(31, 20)
-        Me.txtCALIDAD.TabIndex = 29
+        Me.txtCALIDAD.TabIndex = 6
         '
         'txtINGLES
         '
         Me.txtINGLES.Location = New System.Drawing.Point(411, 172)
         Me.txtINGLES.Name = "txtINGLES"
         Me.txtINGLES.Size = New System.Drawing.Size(31, 20)
-        Me.txtINGLES.TabIndex = 30
+        Me.txtINGLES.TabIndex = 5
         '
         'txtRET
         '
         Me.txtRET.Location = New System.Drawing.Point(411, 150)
         Me.txtRET.Name = "txtRET"
         Me.txtRET.Size = New System.Drawing.Size(31, 20)
-        Me.txtRET.TabIndex = 31
+        Me.txtRET.TabIndex = 4
         '
         'txtPELE
         '
         Me.txtPELE.Location = New System.Drawing.Point(411, 127)
         Me.txtPELE.Name = "txtPELE"
         Me.txtPELE.Size = New System.Drawing.Size(31, 20)
-        Me.txtPELE.TabIndex = 32
+        Me.txtPELE.TabIndex = 3
         '
         'txtDYRSP
         '
@@ -395,7 +395,7 @@ Partial Class Form1
         Me.txtDYRSP.Name = "txtDYRSP"
         Me.txtDYRSP.ReadOnly = True
         Me.txtDYRSP.Size = New System.Drawing.Size(31, 20)
-        Me.txtDYRSP.TabIndex = 33
+        Me.txtDYRSP.TabIndex = 8
         '
         'Form1
         '
