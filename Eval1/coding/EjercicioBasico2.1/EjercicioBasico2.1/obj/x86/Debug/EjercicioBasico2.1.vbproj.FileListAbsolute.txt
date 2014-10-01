@@ -1,0 +1,11 @@
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\EjercicioBasico2.1\EjercicioBasico2.1\bin\Debug\EjercicioBasico2.1.exe
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\EjercicioBasico2.1\EjercicioBasico2.1\bin\Debug\EjercicioBasico2.1.pdb
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\EjercicioBasico2.1\EjercicioBasico2.1\bin\Debug\EjercicioBasico2.1.xml
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\EjercicioBasico2.1\EjercicioBasico2.1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\EjercicioBasico2.1\EjercicioBasico2.1\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\EjercicioBasico2.1\EjercicioBasico2.1\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\EjercicioBasico2.1\EjercicioBasico2.1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\EjercicioBasico2.1\EjercicioBasico2.1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\EjercicioBasico2.1\EjercicioBasico2.1\obj\x86\Debug\EjercicioBasico2.1.exe
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\EjercicioBasico2.1\EjercicioBasico2.1\obj\x86\Debug\EjercicioBasico2.1.xml
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\EjercicioBasico2.1\EjercicioBasico2.1\obj\x86\Debug\EjercicioBasico2.1.pdb

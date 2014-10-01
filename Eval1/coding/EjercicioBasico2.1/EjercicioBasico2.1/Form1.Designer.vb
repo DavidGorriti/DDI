@@ -52,6 +52,7 @@ Partial Class Form1
         Me.chkFamilia.Name = "chkFamilia"
         Me.chkFamilia.Size = New System.Drawing.Size(136, 17)
         Me.chkFamilia.TabIndex = 1
+        Me.chkFamilia.Tag = "fmln"
         Me.chkFamilia.Text = "Familia numerosa (20%)"
         Me.chkFamilia.UseVisualStyleBackColor = True
         '
@@ -62,6 +63,7 @@ Partial Class Form1
         Me.chkEstudiante.Name = "chkEstudiante"
         Me.chkEstudiante.Size = New System.Drawing.Size(105, 17)
         Me.chkEstudiante.TabIndex = 0
+        Me.chkEstudiante.Tag = "est"
         Me.chkEstudiante.Text = "Estudiante (10%)"
         Me.chkEstudiante.UseVisualStyleBackColor = True
         '
@@ -85,6 +87,7 @@ Partial Class Form1
         Me.rbInfantil.Size = New System.Drawing.Size(56, 17)
         Me.rbInfantil.TabIndex = 3
         Me.rbInfantil.TabStop = True
+        Me.rbInfantil.Tag = "95"
         Me.rbInfantil.Text = "Infantil"
         Me.rbInfantil.UseVisualStyleBackColor = True
         '
@@ -96,6 +99,7 @@ Partial Class Form1
         Me.rbJubilados.Size = New System.Drawing.Size(69, 17)
         Me.rbJubilados.TabIndex = 2
         Me.rbJubilados.TabStop = True
+        Me.rbJubilados.Tag = "75"
         Me.rbJubilados.Text = "Jubilados"
         Me.rbJubilados.UseVisualStyleBackColor = True
         '
@@ -107,6 +111,7 @@ Partial Class Form1
         Me.rbJoven.Size = New System.Drawing.Size(99, 17)
         Me.rbJoven.TabIndex = 1
         Me.rbJoven.TabStop = True
+        Me.rbJoven.Tag = "80"
         Me.rbJoven.Text = "Individual joven"
         Me.rbJoven.UseVisualStyleBackColor = True
         '
@@ -118,6 +123,7 @@ Partial Class Form1
         Me.rbIndividual.Size = New System.Drawing.Size(70, 17)
         Me.rbIndividual.TabIndex = 0
         Me.rbIndividual.TabStop = True
+        Me.rbIndividual.Tag = "100"
         Me.rbIndividual.Text = "Individual"
         Me.rbIndividual.UseVisualStyleBackColor = True
         '
