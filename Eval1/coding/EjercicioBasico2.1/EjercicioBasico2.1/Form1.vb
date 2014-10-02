@@ -32,6 +32,15 @@
     Private Sub rbChecked(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles rbIndividual.CheckedChanged, rbInfantil.CheckedChanged, rbJoven.CheckedChanged, rbJubilados.CheckedChanged
         Dim pulsado As RadioButton = sender
 
+        If pulsado.Text = "Individual" Then
+            lblResultado.Text = 100
+        ElseIf pulsado.Text = "Familia numerosa" Then
+            lblResultado.Text = 70
+        ElseIf pulsado.Text = "Jubilados" Then
+            lblResultado.Text = 65
+        ElseIf pulsado.Text = "Infantil" Then
+            lblResultado.Text = 50
+        End If
 
         calculateDisctount()
 
