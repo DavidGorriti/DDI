@@ -74,6 +74,34 @@
 
 
     Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
+
+        If pctBall.Location.Y > pnlPlayground.Height - pctBall.Height Then
+            Yi = -10
+        ElseIf pctBall.Location.Y < 0 Then
+            Yi = 10
+        End If
+
+        If pctBall.Location.X > pctPaddle.Location.X - pctBall.Width Then
+
+            If pctBall.Location.Y >= pctPaddle.Location.Y And pctBall.Location.Y + pctBall.Height < pctPaddle.Location.Y + pctPaddle.Height Then
+
+
+                Xi = -10
+                lblScore.Text = Val(lblScore.Text) + 1
+
+            Else
+                Timer1.Stop()
+                MsgBox("JUEGO TERMINADO!")
+                btnStart.Enabled = True
+                btnStop.Enabled = False
+
+
+
+            End If
+        ElseIf pctBall.Location.X < 0 Then
+            Xi = 10
+        End If
+
         pctBall.Location = New Point(pctBall.Location.X + Xi, pctBall.Location.Y + Yi)
     End Sub
 End Class

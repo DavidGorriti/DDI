@@ -91,7 +91,7 @@ Partial Class Form1
         '
         Me.lblScore.AutoSize = True
         Me.lblScore.Font = New System.Drawing.Font("Microsoft Sans Serif", 30.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblScore.Location = New System.Drawing.Point(104, 26)
+        Me.lblScore.Location = New System.Drawing.Point(37, 19)
         Me.lblScore.Name = "lblScore"
         Me.lblScore.Size = New System.Drawing.Size(0, 46)
         Me.lblScore.TabIndex = 4
