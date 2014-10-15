@@ -69,7 +69,6 @@
         If ans <> lstItems.SelectedIndex Then
             MsgBox("PUES NADA")
             txtFallos.Text += 1
-
         End If
 
         inizializa()

@@ -38,6 +38,18 @@
     End Sub
 
     Private Sub btnNegrita_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnNegrita.Click
+        txtText.Font = New Font(txtText.Font, FontStyle.Bold)
+    End Sub
 
+    Private Sub Cursiva_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Cursiva.Click
+        txtText.Font = New Font(txtText.Font, FontStyle.Italic)
+    End Sub
+
+    Private Sub btnTachada_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnTachada.Click
+        txtText.Font = New Font(txtText.Font, FontStyle.Strikeout)
+    End Sub
+
+    Private Sub btnSubrayada_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnSubrayada.Click
+        txtText.Font = New Font(txtText.Font, FontStyle.Underline)
     End Sub
 End Class
