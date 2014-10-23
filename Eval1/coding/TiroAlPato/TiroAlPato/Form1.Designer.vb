@@ -24,11 +24,11 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.pnlGame = New System.Windows.Forms.Panel()
+        Me.pctPatoRapido = New System.Windows.Forms.PictureBox()
+        Me.pctPatoLento = New System.Windows.Forms.PictureBox()
         Me.btnStart = New System.Windows.Forms.Button()
         Me.btnStop = New System.Windows.Forms.Button()
         Me.txtScore = New System.Windows.Forms.TextBox()
-        Me.pctPatoRapido = New System.Windows.Forms.PictureBox()
-        Me.pctPatoLento = New System.Windows.Forms.PictureBox()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.pnlGame.SuspendLayout()
         CType(Me.pctPatoRapido, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -43,6 +43,28 @@ Partial Class Form1
         Me.pnlGame.Name = "pnlGame"
         Me.pnlGame.Size = New System.Drawing.Size(638, 344)
         Me.pnlGame.TabIndex = 0
+        '
+        'pctPatoRapido
+        '
+        Me.pctPatoRapido.Image = Global.WindowsApplication1.My.Resources.Resources.blackduck
+        Me.pctPatoRapido.Location = New System.Drawing.Point(4, 60)
+        Me.pctPatoRapido.Name = "pctPatoRapido"
+        Me.pctPatoRapido.Size = New System.Drawing.Size(61, 50)
+        Me.pctPatoRapido.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.pctPatoRapido.TabIndex = 1
+        Me.pctPatoRapido.TabStop = False
+        Me.pctPatoRapido.Tag = "15"
+        '
+        'pctPatoLento
+        '
+        Me.pctPatoLento.Image = Global.WindowsApplication1.My.Resources.Resources.duck
+        Me.pctPatoLento.Location = New System.Drawing.Point(3, 3)
+        Me.pctPatoLento.Name = "pctPatoLento"
+        Me.pctPatoLento.Size = New System.Drawing.Size(62, 50)
+        Me.pctPatoLento.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.pctPatoLento.TabIndex = 0
+        Me.pctPatoLento.TabStop = False
+        Me.pctPatoLento.Tag = "8"
         '
         'btnStart
         '
@@ -68,26 +90,6 @@ Partial Class Form1
         Me.txtScore.Name = "txtScore"
         Me.txtScore.Size = New System.Drawing.Size(57, 20)
         Me.txtScore.TabIndex = 3
-        '
-        'pctPatoRapido
-        '
-        Me.pctPatoRapido.Image = Global.WindowsApplication1.My.Resources.Resources.blackduck
-        Me.pctPatoRapido.Location = New System.Drawing.Point(4, 60)
-        Me.pctPatoRapido.Name = "pctPatoRapido"
-        Me.pctPatoRapido.Size = New System.Drawing.Size(61, 50)
-        Me.pctPatoRapido.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.pctPatoRapido.TabIndex = 1
-        Me.pctPatoRapido.TabStop = False
-        '
-        'pctPatoLento
-        '
-        Me.pctPatoLento.Image = Global.WindowsApplication1.My.Resources.Resources.duck
-        Me.pctPatoLento.Location = New System.Drawing.Point(3, 3)
-        Me.pctPatoLento.Name = "pctPatoLento"
-        Me.pctPatoLento.Size = New System.Drawing.Size(62, 50)
-        Me.pctPatoLento.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.pctPatoLento.TabIndex = 0
-        Me.pctPatoLento.TabStop = False
         '
         'Timer1
         '
