@@ -50,10 +50,10 @@ Partial Class Form1
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.txtPrecioOpciones = New System.Windows.Forms.TextBox()
+        Me.txtPrecioSinOp = New System.Windows.Forms.TextBox()
+        Me.txtDescuento = New System.Windows.Forms.TextBox()
+        Me.txtPrecioFinal = New System.Windows.Forms.TextBox()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
@@ -173,6 +173,7 @@ Partial Class Form1
         Me.chkAbs.Name = "chkAbs"
         Me.chkAbs.Size = New System.Drawing.Size(47, 17)
         Me.chkAbs.TabIndex = 4
+        Me.chkAbs.Tag = "670"
         Me.chkAbs.Text = "ABS"
         Me.chkAbs.UseVisualStyleBackColor = True
         '
@@ -183,6 +184,7 @@ Partial Class Form1
         Me.chkAlarma.Name = "chkAlarma"
         Me.chkAlarma.Size = New System.Drawing.Size(103, 17)
         Me.chkAlarma.TabIndex = 5
+        Me.chkAlarma.Tag = "150"
         Me.chkAlarma.Text = "Alarma Antirrobo"
         Me.chkAlarma.UseVisualStyleBackColor = True
         '
@@ -193,6 +195,8 @@ Partial Class Form1
         Me.chkGps.Name = "chkGps"
         Me.chkGps.Size = New System.Drawing.Size(48, 17)
         Me.chkGps.TabIndex = 6
+        Me.chkGps.TabStop = False
+        Me.chkGps.Tag = "400"
         Me.chkGps.Text = "GPS"
         Me.chkGps.UseVisualStyleBackColor = True
         '
@@ -203,6 +207,8 @@ Partial Class Form1
         Me.chkPintura.Name = "chkPintura"
         Me.chkPintura.Size = New System.Drawing.Size(113, 17)
         Me.chkPintura.TabIndex = 7
+        Me.chkPintura.TabStop = False
+        Me.chkPintura.Tag = "150"
         Me.chkPintura.Text = "Pintura Metalizada"
         Me.chkPintura.UseVisualStyleBackColor = True
         '
@@ -213,6 +219,7 @@ Partial Class Form1
         Me.chkAsientosCuero.Name = "chkAsientosCuero"
         Me.chkAsientosCuero.Size = New System.Drawing.Size(111, 17)
         Me.chkAsientosCuero.TabIndex = 8
+        Me.chkAsientosCuero.Tag = "1600"
         Me.chkAsientosCuero.Text = "Asientos de cuero"
         Me.chkAsientosCuero.UseVisualStyleBackColor = True
         '
@@ -223,6 +230,7 @@ Partial Class Form1
         Me.chkCambioAuto.Name = "chkCambioAuto"
         Me.chkCambioAuto.Size = New System.Drawing.Size(117, 17)
         Me.chkCambioAuto.TabIndex = 9
+        Me.chkCambioAuto.Tag = "2100"
         Me.chkCambioAuto.Text = "Cambio Automático"
         Me.chkCambioAuto.UseVisualStyleBackColor = True
         '
@@ -233,6 +241,7 @@ Partial Class Form1
         Me.chkAire.Name = "chkAire"
         Me.chkAire.Size = New System.Drawing.Size(118, 17)
         Me.chkAire.TabIndex = 10
+        Me.chkAire.Tag = "1050"
         Me.chkAire.Text = "Aire Acondicionado"
         Me.chkAire.UseVisualStyleBackColor = True
         '
@@ -243,6 +252,7 @@ Partial Class Form1
         Me.chkAirbag.Name = "chkAirbag"
         Me.chkAirbag.Size = New System.Drawing.Size(107, 17)
         Me.chkAirbag.TabIndex = 11
+        Me.chkAirbag.Tag = "540"
         Me.chkAirbag.Text = "Airgabs Laterales"
         Me.chkAirbag.UseVisualStyleBackColor = True
         '
@@ -318,33 +328,33 @@ Partial Class Form1
         Me.Label8.TabIndex = 19
         Me.Label8.Text = "1600"
         '
-        'TextBox1
+        'txtPrecioOpciones
         '
-        Me.TextBox1.Location = New System.Drawing.Point(160, 359)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 20
+        Me.txtPrecioOpciones.Location = New System.Drawing.Point(160, 359)
+        Me.txtPrecioOpciones.Name = "txtPrecioOpciones"
+        Me.txtPrecioOpciones.Size = New System.Drawing.Size(100, 20)
+        Me.txtPrecioOpciones.TabIndex = 20
         '
-        'TextBox2
+        'txtPrecioSinOp
         '
-        Me.TextBox2.Location = New System.Drawing.Point(160, 333)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 21
+        Me.txtPrecioSinOp.Location = New System.Drawing.Point(160, 333)
+        Me.txtPrecioSinOp.Name = "txtPrecioSinOp"
+        Me.txtPrecioSinOp.Size = New System.Drawing.Size(100, 20)
+        Me.txtPrecioSinOp.TabIndex = 21
         '
-        'TextBox3
+        'txtDescuento
         '
-        Me.TextBox3.Location = New System.Drawing.Point(160, 385)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox3.TabIndex = 22
+        Me.txtDescuento.Location = New System.Drawing.Point(160, 385)
+        Me.txtDescuento.Name = "txtDescuento"
+        Me.txtDescuento.Size = New System.Drawing.Size(100, 20)
+        Me.txtDescuento.TabIndex = 22
         '
-        'TextBox4
+        'txtPrecioFinal
         '
-        Me.TextBox4.Location = New System.Drawing.Point(160, 411)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox4.TabIndex = 23
+        Me.txtPrecioFinal.Location = New System.Drawing.Point(160, 411)
+        Me.txtPrecioFinal.Name = "txtPrecioFinal"
+        Me.txtPrecioFinal.Size = New System.Drawing.Size(100, 20)
+        Me.txtPrecioFinal.TabIndex = 23
         '
         'Label9
         '
@@ -391,10 +401,10 @@ Partial Class Form1
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.Label9)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtPrecioFinal)
+        Me.Controls.Add(Me.txtDescuento)
+        Me.Controls.Add(Me.txtPrecioSinOp)
+        Me.Controls.Add(Me.txtPrecioOpciones)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label6)
@@ -451,10 +461,10 @@ Partial Class Form1
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents Label8 As System.Windows.Forms.Label
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox4 As System.Windows.Forms.TextBox
+    Friend WithEvents txtPrecioOpciones As System.Windows.Forms.TextBox
+    Friend WithEvents txtPrecioSinOp As System.Windows.Forms.TextBox
+    Friend WithEvents txtDescuento As System.Windows.Forms.TextBox
+    Friend WithEvents txtPrecioFinal As System.Windows.Forms.TextBox
     Friend WithEvents Label9 As System.Windows.Forms.Label
     Friend WithEvents Label10 As System.Windows.Forms.Label
     Friend WithEvents Label11 As System.Windows.Forms.Label
