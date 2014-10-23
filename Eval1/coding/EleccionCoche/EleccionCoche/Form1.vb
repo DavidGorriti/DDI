@@ -1,8 +1,10 @@
 ﻿Public Class Form1
 
+    Dim precioRaw As Integer
+    Dim precioOpciones As Integer
+    Dim descuentoOpciones As Integer
 
     Private Sub model_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles rbtCoupe.CheckedChanged, rbtFamiliar.CheckedChanged, rbtMonovolumen.CheckedChanged
-
         Dim button As RadioButton = sender
         If button.Checked Then
             Dim i As Integer = Val(button.Tag)
@@ -17,6 +19,9 @@
             Timer1.Start()
         End If
         pctCar.Location = New Point(Me.Width, 34)
+
+
+
 
     End Sub
 
