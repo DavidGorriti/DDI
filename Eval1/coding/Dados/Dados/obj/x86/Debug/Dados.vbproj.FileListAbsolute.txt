@@ -1,0 +1,11 @@
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Dados\Dados\bin\Debug\Dados.exe
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Dados\Dados\bin\Debug\Dados.pdb
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Dados\Dados\bin\Debug\Dados.xml
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Dados\Dados\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Dados\Dados\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Dados\Dados\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Dados\Dados\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Dados\Dados\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Dados\Dados\obj\x86\Debug\Dados.exe
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Dados\Dados\obj\x86\Debug\Dados.xml
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Dados\Dados\obj\x86\Debug\Dados.pdb
