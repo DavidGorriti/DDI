@@ -26,7 +26,7 @@ Partial Class Form1
         Me.Label2 = New System.Windows.Forms.Label()
         Me.txtDia = New System.Windows.Forms.TextBox()
         Me.txtMes = New System.Windows.Forms.TextBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txtHoroscopo = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Label1
@@ -61,20 +61,20 @@ Partial Class Form1
         Me.txtMes.Size = New System.Drawing.Size(35, 20)
         Me.txtMes.TabIndex = 3
         '
-        'TextBox1
+        'txtHoroscopo
         '
-        Me.TextBox1.Location = New System.Drawing.Point(12, 100)
-        Me.TextBox1.Multiline = True
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(392, 226)
-        Me.TextBox1.TabIndex = 4
+        Me.txtHoroscopo.Location = New System.Drawing.Point(12, 100)
+        Me.txtHoroscopo.Multiline = True
+        Me.txtHoroscopo.Name = "txtHoroscopo"
+        Me.txtHoroscopo.Size = New System.Drawing.Size(392, 226)
+        Me.txtHoroscopo.TabIndex = 4
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(416, 339)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtHoroscopo)
         Me.Controls.Add(Me.txtMes)
         Me.Controls.Add(Me.txtDia)
         Me.Controls.Add(Me.Label2)
@@ -89,6 +89,6 @@ Partial Class Form1
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents txtDia As System.Windows.Forms.TextBox
     Friend WithEvents txtMes As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents txtHoroscopo As System.Windows.Forms.TextBox
 
 End Class
