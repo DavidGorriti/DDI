@@ -81,6 +81,42 @@
                 Else
                     Return cancer
                 End If
+            Case 7
+                If mes <= 21 Then
+                    Return cancer
+                Else
+                    Return leo
+                End If
+            Case 8
+                If mes <= 21 Then
+                    Return leo
+                Else
+                    Return virgo
+                End If
+            Case 9
+                If mes <= 21 Then
+                    Return virgo
+                Else
+                    Return libra
+                End If
+            Case 10
+                If mes <= 22 Then
+                    Return libra
+                Else
+                    Return escorpio
+                End If
+            Case 11
+                If mes <= 20 Then
+                    Return escorpio
+                Else
+                    Return sagitario
+                End If
+            Case 12
+                If mes <= 20 Then
+                    Return sagitario
+                Else
+                    Return capricornio
+                End If
 
         End Select
 
