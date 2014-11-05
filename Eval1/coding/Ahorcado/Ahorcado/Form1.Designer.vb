@@ -22,6 +22,8 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.btnA = New System.Windows.Forms.Button()
         Me.btnE = New System.Windows.Forms.Button()
         Me.btnD = New System.Windows.Forms.Button()
@@ -51,7 +53,12 @@ Partial Class Form1
         Me.btnI = New System.Windows.Forms.Button()
         Me.btnH = New System.Windows.Forms.Button()
         Me.btnG = New System.Windows.Forms.Button()
+        Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
+        Me.pctImage = New System.Windows.Forms.PictureBox()
+        Me.txtWord = New System.Windows.Forms.TextBox()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.grpLetras.SuspendLayout()
+        CType(Me.pctImage, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'btnA
@@ -342,16 +349,53 @@ Partial Class Form1
         Me.btnG.Text = "G"
         Me.btnG.UseVisualStyleBackColor = True
         '
+        'ImageList1
+        '
+        Me.ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), System.Windows.Forms.ImageListStreamer)
+        Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
+        Me.ImageList1.Images.SetKeyName(0, "Hangman-0.png")
+        Me.ImageList1.Images.SetKeyName(1, "Hangman-1.png")
+        Me.ImageList1.Images.SetKeyName(2, "Hangman-2.png")
+        Me.ImageList1.Images.SetKeyName(3, "Hangman-3.png")
+        Me.ImageList1.Images.SetKeyName(4, "Hangman-4.png")
+        Me.ImageList1.Images.SetKeyName(5, "Hangman-5.png")
+        Me.ImageList1.Images.SetKeyName(6, "Hangman-6.png")
+        '
+        'pctImage
+        '
+        Me.pctImage.Location = New System.Drawing.Point(12, 31)
+        Me.pctImage.Name = "pctImage"
+        Me.pctImage.Size = New System.Drawing.Size(343, 184)
+        Me.pctImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.pctImage.TabIndex = 10
+        Me.pctImage.TabStop = False
+        '
+        'txtWord
+        '
+        Me.txtWord.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtWord.Location = New System.Drawing.Point(165, 224)
+        Me.txtWord.Name = "txtWord"
+        Me.txtWord.Size = New System.Drawing.Size(190, 29)
+        Me.txtWord.TabIndex = 11
+        '
+        'Timer1
+        '
+        Me.Timer1.Interval = 6000
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(582, 276)
+        Me.Controls.Add(Me.txtWord)
+        Me.Controls.Add(Me.pctImage)
         Me.Controls.Add(Me.grpLetras)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.grpLetras.ResumeLayout(False)
+        CType(Me.pctImage, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents btnA As System.Windows.Forms.Button
@@ -383,5 +427,9 @@ Partial Class Form1
     Friend WithEvents btnI As System.Windows.Forms.Button
     Friend WithEvents btnH As System.Windows.Forms.Button
     Friend WithEvents btnG As System.Windows.Forms.Button
+    Friend WithEvents ImageList1 As System.Windows.Forms.ImageList
+    Friend WithEvents pctImage As System.Windows.Forms.PictureBox
+    Friend WithEvents txtWord As System.Windows.Forms.TextBox
+    Friend WithEvents Timer1 As System.Windows.Forms.Timer
 
 End Class
