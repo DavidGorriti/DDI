@@ -139,8 +139,6 @@
             Dim counter As Integer = porcentajeOcupacion(ventas, j)
             Dim temp As String = lbxPelis.Items(j) & " - " & counter & "%"
             result = result & vbCrLf & temp
-
-
         Next
         MsgBox(result)
     End Sub
