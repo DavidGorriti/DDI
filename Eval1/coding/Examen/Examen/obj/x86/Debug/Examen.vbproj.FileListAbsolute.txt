@@ -1,0 +1,31 @@
+C:\Documents and Settings\2da312\Escritorio\Examen\Examen\bin\Debug\Examen.exe
+C:\Documents and Settings\2da312\Escritorio\Examen\Examen\bin\Debug\Examen.pdb
+C:\Documents and Settings\2da312\Escritorio\Examen\Examen\bin\Debug\Examen.xml
+C:\Documents and Settings\2da312\Escritorio\Examen\Examen\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\2da312\Escritorio\Examen\Examen\obj\x86\Debug\WindowsApplication1.frmExamen.resources
+C:\Documents and Settings\2da312\Escritorio\Examen\Examen\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Documents and Settings\2da312\Escritorio\Examen\Examen\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\2da312\Escritorio\Examen\Examen\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\2da312\Escritorio\Examen\Examen\obj\x86\Debug\Examen.exe
+C:\Documents and Settings\2da312\Escritorio\Examen\Examen\obj\x86\Debug\Examen.xml
+C:\Documents and Settings\2da312\Escritorio\Examen\Examen\obj\x86\Debug\Examen.pdb
+C:\temp\Examen\Examen\obj\x86\Debug\Examen.exe
+C:\temp\Examen\Examen\obj\x86\Debug\Examen.xml
+C:\temp\Examen\Examen\obj\x86\Debug\Examen.pdb
+C:\temp\Examen\Examen\bin\Debug\Examen.exe
+C:\temp\Examen\Examen\bin\Debug\Examen.pdb
+C:\temp\Examen\Examen\bin\Debug\Examen.xml
+C:\temp\Examen\Examen\obj\x86\Debug\WindowsApplication1.frmExamen.resources
+C:\temp\Examen\Examen\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\temp\Examen\Examen\obj\x86\Debug\Examen.vbproj.GenerateResource.Cache
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Examen\Examen\obj\x86\Debug\Examen.exe
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Examen\Examen\obj\x86\Debug\Examen.xml
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Examen\Examen\obj\x86\Debug\Examen.pdb
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Examen\Examen\bin\Debug\Examen.exe
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Examen\Examen\bin\Debug\Examen.pdb
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Examen\Examen\bin\Debug\Examen.xml
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Examen\Examen\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Examen\Examen\obj\x86\Debug\WindowsApplication1.frmExamen.resources
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Examen\Examen\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Examen\Examen\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Examen\Examen\obj\x86\Debug\GenerateResource.write.1.tlog
