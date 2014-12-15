@@ -1,0 +1,15 @@
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Pelis\Pelis\bin\Debug\Pelis.exe.config
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Pelis\Pelis\bin\Debug\pelis.mdb
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Pelis\Pelis\bin\Debug\Pelis.exe
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Pelis\Pelis\bin\Debug\Pelis.pdb
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Pelis\Pelis\bin\Debug\Pelis.xml
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Pelis\Pelis\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Pelis\Pelis\obj\x86\Debug\Pelis.Form1.resources
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Pelis\Pelis\obj\x86\Debug\Pelis.FormPelis.resources
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Pelis\Pelis\obj\x86\Debug\Pelis.Resources.resources
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Pelis\Pelis\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Pelis\Pelis\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Pelis\Pelis\obj\x86\Debug\Pelis.exe
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Pelis\Pelis\obj\x86\Debug\Pelis.xml
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Pelis\Pelis\obj\x86\Debug\Pelis.pdb
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Pelis\Pelis\obj\x86\Debug\Pelis.FormDirectores.resources

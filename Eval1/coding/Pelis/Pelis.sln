@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Pelis", "Pelis\Pelis.vbproj", "{BFCA1D13-0F84-4FB3-85D7-5574ABA12A62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFCA1D13-0F84-4FB3-85D7-5574ABA12A62}.Debug|x86.ActiveCfg = Debug|x86
+		{BFCA1D13-0F84-4FB3-85D7-5574ABA12A62}.Debug|x86.Build.0 = Debug|x86
+		{BFCA1D13-0F84-4FB3-85D7-5574ABA12A62}.Release|x86.ActiveCfg = Release|x86
+		{BFCA1D13-0F84-4FB3-85D7-5574ABA12A62}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
