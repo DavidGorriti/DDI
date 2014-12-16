@@ -4,6 +4,7 @@
     Dim palabraIntroducida As String = ""
     Dim tablaTextBox(,) As TextBox
     Dim currentLinea As Integer = 0
+    Dim time As Integer = 0
 
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         palabra = SeleccionaPalabra()
@@ -16,6 +17,7 @@
                         {TextBox21, TextBox22, TextBox23, TextBox24, TextBox25}
                        }
 
+        Timer1.Start()
 
     End Sub
 
@@ -31,7 +33,7 @@
         For i = 0 To 4
             palabraIntroducida += tablaTextBox(currentLinea, i).Text.ToUpper
         Next
-        MsgBox(palabraIntroducida)
+
         If existePalabra(palabraIntroducida) Then
             cambiaColor()
         Else
@@ -42,11 +44,17 @@
         sender.Enabled = False
 
 
-
-        If currentLinea < 4 Then
-            currentLinea += 1
+        If checkPalabra(palabraIntroducida) Then
+            finalizaJuego()
         Else
-            MsgBox("Se te acabó el chollo")
+            If currentLinea < 4 Then
+                currentLinea += 1
+
+            Else
+                MsgBox("Se te acabó el chollo")
+                Me.Close()
+
+            End If
         End If
 
         Me.SelectNextControl(sender, True, True, True, True)
@@ -78,5 +86,23 @@
         Next
     End Sub
 
+    Function checkPalabra(ByVal palabraIntroducida As String) As Boolean
+        If palabraIntroducida = palabra Then
+            Return True
+        Else
+            Return False
+        End If
+    End Function
 
+    Private Sub finalizaJuego()
+        Dim name As String = InputBox("Ha ganado! Introduzca su nombre")
+        saveRanking(name, time)
+        Me.Close()
+
+    End Sub
+
+
+    Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
+        time += 1
+    End Sub
 End Class

@@ -75,4 +75,26 @@
         End Try
     End Function
 
+
+    Public Sub saveRanking(ByVal name As String, ByVal time As Int16)
+        Try
+            Dim conexion As OleDb.OleDbConnection = New OleDb.OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\lingo.mdb;Persist Security Info=False;")
+            conexion.Open()
+
+            Dim cmd As New OleDb.OleDbCommand
+            cmd.Connection = conexion
+            cmd.CommandType = CommandType.Text
+            cmd.CommandText = "INSERT INTO ranking(nombre, tiempo) VALUES ('" + name + "', '" + time.ToString() + "')"
+
+            cmd.ExecuteNonQuery()
+
+            conexion.Close()
+
+        Catch ex As Exception
+            MsgBox("Error de conexion")
+            Application.Exit()
+
+        End Try
+    End Sub
+
 End Module
