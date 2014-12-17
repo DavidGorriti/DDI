@@ -54,7 +54,11 @@ Partial Class Form1
         Me.OpcionesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.RankingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NuevoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
+        Me.tsslExiste = New System.Windows.Forms.ToolStripStatusLabel()
         Me.MenuStrip1.SuspendLayout()
+        Me.StatusStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'TextBox1
@@ -303,7 +307,7 @@ Partial Class Form1
         '
         'OpcionesToolStripMenuItem
         '
-        Me.OpcionesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SalirToolStripMenuItem})
+        Me.OpcionesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SalirToolStripMenuItem, Me.NuevoToolStripMenuItem})
         Me.OpcionesToolStripMenuItem.Name = "OpcionesToolStripMenuItem"
         Me.OpcionesToolStripMenuItem.Size = New System.Drawing.Size(69, 20)
         Me.OpcionesToolStripMenuItem.Text = "Opciones"
@@ -320,11 +324,32 @@ Partial Class Form1
         Me.RankingToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.RankingToolStripMenuItem.Text = "Ranking"
         '
+        'NuevoToolStripMenuItem
+        '
+        Me.NuevoToolStripMenuItem.Name = "NuevoToolStripMenuItem"
+        Me.NuevoToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.NuevoToolStripMenuItem.Text = "Nuevo"
+        '
+        'StatusStrip1
+        '
+        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.tsslExiste})
+        Me.StatusStrip1.Location = New System.Drawing.Point(0, 218)
+        Me.StatusStrip1.Name = "StatusStrip1"
+        Me.StatusStrip1.Size = New System.Drawing.Size(174, 22)
+        Me.StatusStrip1.TabIndex = 46
+        Me.StatusStrip1.Text = "StatusStrip1"
+        '
+        'tsslExiste
+        '
+        Me.tsslExiste.Name = "tsslExiste"
+        Me.tsslExiste.Size = New System.Drawing.Size(0, 17)
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(174, 209)
+        Me.ClientSize = New System.Drawing.Size(174, 240)
+        Me.Controls.Add(Me.StatusStrip1)
         Me.Controls.Add(Me.TextBox25)
         Me.Controls.Add(Me.TextBox24)
         Me.Controls.Add(Me.TextBox23)
@@ -356,6 +381,8 @@ Partial Class Form1
         Me.Text = "Lingo"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
+        Me.StatusStrip1.ResumeLayout(False)
+        Me.StatusStrip1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -391,5 +418,8 @@ Partial Class Form1
     Friend WithEvents RankingToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents OpcionesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents SalirToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents NuevoToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents StatusStrip1 As System.Windows.Forms.StatusStrip
+    Friend WithEvents tsslExiste As System.Windows.Forms.ToolStripStatusLabel
 
 End Class

@@ -36,8 +36,11 @@
 
         If existePalabra(palabraIntroducida) Then
             cambiaColor()
+            tsslExiste.Text = "existe"
+            tsslExiste.ForeColor = Color.Green
         Else
-            MsgBox("No existe")
+            tsslExiste.Text = "NO existe"
+            tsslExiste.ForeColor = Color.Red
         End If
 
 
@@ -55,9 +58,10 @@
                 Me.Close()
 
             End If
+            Me.SelectNextControl(sender, True, True, True, True)
         End If
 
-        Me.SelectNextControl(sender, True, True, True, True)
+
 
     End Sub
 
@@ -97,6 +101,7 @@
     Private Sub finalizaJuego()
         Dim name As String = InputBox("Ha ganado! Introduzca su nombre")
         saveRanking(name, time)
+        juegoNuevo()
 
     End Sub
 
@@ -111,4 +116,45 @@
     End Sub
 
 
+    Private Sub NuevoToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles NuevoToolStripMenuItem.Click
+        juegoNuevo()
+
+    End Sub
+
+    Private Sub SalirToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SalirToolStripMenuItem.Click
+        Me.Close()
+    End Sub
+
+    Private Sub juegoNuevo()
+        Timer1.Stop()
+
+        Dim control As Control
+        For Each control In Me.Controls
+            If TypeOf (control) Is TextBox Then
+                control.Text = ""
+                control.Enabled = True
+                control.BackColor = Color.White
+            End If
+        Next
+
+        palabra = ""
+        palabraIntroducida = ""
+
+        palabra = SeleccionaPalabra()
+        MsgBox(palabra)
+
+
+
+
+        tablaTextBox = {{TextBox1, TextBox2, TextBox3, TextBox4, TextBox5},
+                        {TextBox6, TextBox7, TextBox8, TextBox9, TextBox10},
+                        {TextBox11, TextBox12, TextBox13, TextBox14, TextBox15},
+                        {TextBox16, TextBox17, TextBox18, TextBox19, TextBox20},
+                        {TextBox21, TextBox22, TextBox23, TextBox24, TextBox25}
+                       }
+
+        Timer1.Start()
+        TextBox1.Focus()
+        currentLinea = 0
+    End Sub
 End Class
