@@ -4,7 +4,7 @@
     Dim palabraIntroducida As String = ""
     Dim tablaTextBox(,) As TextBox
     Dim currentLinea As Integer = 0
-    Dim time As Integer = 0
+    Dim time As Double = 0
 
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         palabra = SeleccionaPalabra()
@@ -97,7 +97,6 @@
     Private Sub finalizaJuego()
         Dim name As String = InputBox("Ha ganado! Introduzca su nombre")
         saveRanking(name, time)
-        Me.Close()
 
     End Sub
 
@@ -105,4 +104,11 @@
     Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
         time += 1
     End Sub
+
+
+    Private Sub RankingToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RankingToolStripMenuItem.Click
+        Ranking.show()
+    End Sub
+
+
 End Class

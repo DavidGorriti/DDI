@@ -49,13 +49,19 @@ Partial Class Form1
         Me.TextBox24 = New System.Windows.Forms.TextBox()
         Me.TextBox25 = New System.Windows.Forms.TextBox()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.VerToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.OpcionesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RankingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'TextBox1
         '
         Me.TextBox1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(12, 12)
+        Me.TextBox1.Location = New System.Drawing.Point(12, 27)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(26, 31)
         Me.TextBox1.TabIndex = 20
@@ -64,7 +70,7 @@ Partial Class Form1
         '
         Me.TextBox2.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(44, 12)
+        Me.TextBox2.Location = New System.Drawing.Point(44, 27)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(26, 31)
         Me.TextBox2.TabIndex = 21
@@ -73,7 +79,7 @@ Partial Class Form1
         '
         Me.TextBox3.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(76, 12)
+        Me.TextBox3.Location = New System.Drawing.Point(76, 27)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(26, 31)
         Me.TextBox3.TabIndex = 22
@@ -82,7 +88,7 @@ Partial Class Form1
         '
         Me.TextBox4.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(108, 12)
+        Me.TextBox4.Location = New System.Drawing.Point(108, 27)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(26, 31)
         Me.TextBox4.TabIndex = 23
@@ -91,7 +97,7 @@ Partial Class Form1
         '
         Me.TextBox5.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox5.Location = New System.Drawing.Point(140, 12)
+        Me.TextBox5.Location = New System.Drawing.Point(140, 27)
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(26, 31)
         Me.TextBox5.TabIndex = 24
@@ -100,7 +106,7 @@ Partial Class Form1
         '
         Me.TextBox6.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox6.Location = New System.Drawing.Point(12, 49)
+        Me.TextBox6.Location = New System.Drawing.Point(12, 64)
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(26, 31)
         Me.TextBox6.TabIndex = 25
@@ -109,7 +115,7 @@ Partial Class Form1
         '
         Me.TextBox7.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox7.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox7.Location = New System.Drawing.Point(44, 49)
+        Me.TextBox7.Location = New System.Drawing.Point(44, 64)
         Me.TextBox7.Name = "TextBox7"
         Me.TextBox7.Size = New System.Drawing.Size(26, 31)
         Me.TextBox7.TabIndex = 26
@@ -118,7 +124,7 @@ Partial Class Form1
         '
         Me.TextBox8.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox8.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox8.Location = New System.Drawing.Point(76, 49)
+        Me.TextBox8.Location = New System.Drawing.Point(76, 64)
         Me.TextBox8.Name = "TextBox8"
         Me.TextBox8.Size = New System.Drawing.Size(26, 31)
         Me.TextBox8.TabIndex = 27
@@ -127,7 +133,7 @@ Partial Class Form1
         '
         Me.TextBox9.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox9.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox9.Location = New System.Drawing.Point(108, 49)
+        Me.TextBox9.Location = New System.Drawing.Point(108, 64)
         Me.TextBox9.Name = "TextBox9"
         Me.TextBox9.Size = New System.Drawing.Size(26, 31)
         Me.TextBox9.TabIndex = 28
@@ -136,7 +142,7 @@ Partial Class Form1
         '
         Me.TextBox10.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox10.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox10.Location = New System.Drawing.Point(140, 49)
+        Me.TextBox10.Location = New System.Drawing.Point(140, 64)
         Me.TextBox10.Name = "TextBox10"
         Me.TextBox10.Size = New System.Drawing.Size(26, 31)
         Me.TextBox10.TabIndex = 29
@@ -145,7 +151,7 @@ Partial Class Form1
         '
         Me.TextBox11.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox11.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox11.Location = New System.Drawing.Point(12, 86)
+        Me.TextBox11.Location = New System.Drawing.Point(12, 101)
         Me.TextBox11.Name = "TextBox11"
         Me.TextBox11.Size = New System.Drawing.Size(26, 31)
         Me.TextBox11.TabIndex = 30
@@ -154,7 +160,7 @@ Partial Class Form1
         '
         Me.TextBox12.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox12.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox12.Location = New System.Drawing.Point(44, 86)
+        Me.TextBox12.Location = New System.Drawing.Point(44, 101)
         Me.TextBox12.Name = "TextBox12"
         Me.TextBox12.Size = New System.Drawing.Size(26, 31)
         Me.TextBox12.TabIndex = 31
@@ -163,7 +169,7 @@ Partial Class Form1
         '
         Me.TextBox13.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox13.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox13.Location = New System.Drawing.Point(76, 86)
+        Me.TextBox13.Location = New System.Drawing.Point(76, 101)
         Me.TextBox13.Name = "TextBox13"
         Me.TextBox13.Size = New System.Drawing.Size(26, 31)
         Me.TextBox13.TabIndex = 32
@@ -172,7 +178,7 @@ Partial Class Form1
         '
         Me.TextBox14.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox14.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox14.Location = New System.Drawing.Point(108, 86)
+        Me.TextBox14.Location = New System.Drawing.Point(108, 101)
         Me.TextBox14.Name = "TextBox14"
         Me.TextBox14.Size = New System.Drawing.Size(26, 31)
         Me.TextBox14.TabIndex = 33
@@ -181,7 +187,7 @@ Partial Class Form1
         '
         Me.TextBox15.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox15.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox15.Location = New System.Drawing.Point(140, 86)
+        Me.TextBox15.Location = New System.Drawing.Point(140, 101)
         Me.TextBox15.Name = "TextBox15"
         Me.TextBox15.Size = New System.Drawing.Size(26, 31)
         Me.TextBox15.TabIndex = 34
@@ -190,7 +196,7 @@ Partial Class Form1
         '
         Me.TextBox16.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox16.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox16.Location = New System.Drawing.Point(12, 123)
+        Me.TextBox16.Location = New System.Drawing.Point(12, 138)
         Me.TextBox16.Name = "TextBox16"
         Me.TextBox16.Size = New System.Drawing.Size(26, 31)
         Me.TextBox16.TabIndex = 35
@@ -199,7 +205,7 @@ Partial Class Form1
         '
         Me.TextBox17.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox17.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox17.Location = New System.Drawing.Point(44, 123)
+        Me.TextBox17.Location = New System.Drawing.Point(44, 138)
         Me.TextBox17.Name = "TextBox17"
         Me.TextBox17.Size = New System.Drawing.Size(26, 31)
         Me.TextBox17.TabIndex = 36
@@ -208,7 +214,7 @@ Partial Class Form1
         '
         Me.TextBox18.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox18.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox18.Location = New System.Drawing.Point(76, 123)
+        Me.TextBox18.Location = New System.Drawing.Point(76, 138)
         Me.TextBox18.Name = "TextBox18"
         Me.TextBox18.Size = New System.Drawing.Size(26, 31)
         Me.TextBox18.TabIndex = 37
@@ -217,7 +223,7 @@ Partial Class Form1
         '
         Me.TextBox19.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox19.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox19.Location = New System.Drawing.Point(108, 123)
+        Me.TextBox19.Location = New System.Drawing.Point(108, 138)
         Me.TextBox19.Name = "TextBox19"
         Me.TextBox19.Size = New System.Drawing.Size(26, 31)
         Me.TextBox19.TabIndex = 38
@@ -226,7 +232,7 @@ Partial Class Form1
         '
         Me.TextBox20.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox20.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox20.Location = New System.Drawing.Point(140, 123)
+        Me.TextBox20.Location = New System.Drawing.Point(140, 138)
         Me.TextBox20.Name = "TextBox20"
         Me.TextBox20.Size = New System.Drawing.Size(26, 31)
         Me.TextBox20.TabIndex = 39
@@ -235,7 +241,7 @@ Partial Class Form1
         '
         Me.TextBox21.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox21.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox21.Location = New System.Drawing.Point(12, 158)
+        Me.TextBox21.Location = New System.Drawing.Point(12, 173)
         Me.TextBox21.Name = "TextBox21"
         Me.TextBox21.Size = New System.Drawing.Size(26, 31)
         Me.TextBox21.TabIndex = 40
@@ -244,7 +250,7 @@ Partial Class Form1
         '
         Me.TextBox22.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox22.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox22.Location = New System.Drawing.Point(44, 158)
+        Me.TextBox22.Location = New System.Drawing.Point(44, 173)
         Me.TextBox22.Name = "TextBox22"
         Me.TextBox22.Size = New System.Drawing.Size(26, 31)
         Me.TextBox22.TabIndex = 41
@@ -253,7 +259,7 @@ Partial Class Form1
         '
         Me.TextBox23.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox23.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox23.Location = New System.Drawing.Point(76, 158)
+        Me.TextBox23.Location = New System.Drawing.Point(76, 173)
         Me.TextBox23.Name = "TextBox23"
         Me.TextBox23.Size = New System.Drawing.Size(26, 31)
         Me.TextBox23.TabIndex = 42
@@ -262,7 +268,7 @@ Partial Class Form1
         '
         Me.TextBox24.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox24.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox24.Location = New System.Drawing.Point(108, 158)
+        Me.TextBox24.Location = New System.Drawing.Point(108, 173)
         Me.TextBox24.Name = "TextBox24"
         Me.TextBox24.Size = New System.Drawing.Size(26, 31)
         Me.TextBox24.TabIndex = 43
@@ -271,7 +277,7 @@ Partial Class Form1
         '
         Me.TextBox25.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox25.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox25.Location = New System.Drawing.Point(140, 158)
+        Me.TextBox25.Location = New System.Drawing.Point(140, 173)
         Me.TextBox25.Name = "TextBox25"
         Me.TextBox25.Size = New System.Drawing.Size(26, 31)
         Me.TextBox25.TabIndex = 44
@@ -279,11 +285,46 @@ Partial Class Form1
         'Timer1
         '
         '
+        'MenuStrip1
+        '
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.VerToolStripMenuItem, Me.OpcionesToolStripMenuItem})
+        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
+        Me.MenuStrip1.Name = "MenuStrip1"
+        Me.MenuStrip1.Size = New System.Drawing.Size(174, 24)
+        Me.MenuStrip1.TabIndex = 45
+        Me.MenuStrip1.Text = "MenuStrip1"
+        '
+        'VerToolStripMenuItem
+        '
+        Me.VerToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RankingToolStripMenuItem})
+        Me.VerToolStripMenuItem.Name = "VerToolStripMenuItem"
+        Me.VerToolStripMenuItem.Size = New System.Drawing.Size(36, 20)
+        Me.VerToolStripMenuItem.Text = "Ver"
+        '
+        'OpcionesToolStripMenuItem
+        '
+        Me.OpcionesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SalirToolStripMenuItem})
+        Me.OpcionesToolStripMenuItem.Name = "OpcionesToolStripMenuItem"
+        Me.OpcionesToolStripMenuItem.Size = New System.Drawing.Size(69, 20)
+        Me.OpcionesToolStripMenuItem.Text = "Opciones"
+        '
+        'SalirToolStripMenuItem
+        '
+        Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
+        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.SalirToolStripMenuItem.Text = "Salir"
+        '
+        'RankingToolStripMenuItem
+        '
+        Me.RankingToolStripMenuItem.Name = "RankingToolStripMenuItem"
+        Me.RankingToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.RankingToolStripMenuItem.Text = "Ranking"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(175, 201)
+        Me.ClientSize = New System.Drawing.Size(174, 209)
         Me.Controls.Add(Me.TextBox25)
         Me.Controls.Add(Me.TextBox24)
         Me.Controls.Add(Me.TextBox23)
@@ -309,8 +350,12 @@ Partial Class Form1
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.MenuStrip1)
+        Me.MainMenuStrip = Me.MenuStrip1
         Me.Name = "Form1"
         Me.Text = "Lingo"
+        Me.MenuStrip1.ResumeLayout(False)
+        Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -341,5 +386,10 @@ Partial Class Form1
     Friend WithEvents TextBox24 As System.Windows.Forms.TextBox
     Friend WithEvents TextBox25 As System.Windows.Forms.TextBox
     Friend WithEvents Timer1 As System.Windows.Forms.Timer
+    Friend WithEvents MenuStrip1 As System.Windows.Forms.MenuStrip
+    Friend WithEvents VerToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents RankingToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents OpcionesToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents SalirToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 
 End Class

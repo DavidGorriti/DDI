@@ -76,11 +76,11 @@
     End Function
 
 
-    Public Sub saveRanking(ByVal name As String, ByVal time As Int16)
+    Public Sub saveRanking(ByVal name As String, ByVal time As Double)
         Try
             Dim conexion As OleDb.OleDbConnection = New OleDb.OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\lingo.mdb;Persist Security Info=False;")
             conexion.Open()
-
+            time = time / 1000
             Dim cmd As New OleDb.OleDbCommand
             cmd.Connection = conexion
             cmd.CommandType = CommandType.Text
@@ -92,9 +92,13 @@
 
         Catch ex As Exception
             MsgBox("Error de conexion")
-            Application.Exit()
+            ResetApp()
 
         End Try
+    End Sub
+
+    Private Sub ResetApp()
+
     End Sub
 
 End Module

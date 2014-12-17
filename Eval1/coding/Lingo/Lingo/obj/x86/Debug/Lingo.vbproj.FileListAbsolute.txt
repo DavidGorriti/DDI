@@ -9,3 +9,5 @@ C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Lingo\Lingo\obj\x86\Debug
 C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Lingo\Lingo\obj\x86\Debug\Lingo.exe
 C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Lingo\Lingo\obj\x86\Debug\Lingo.xml
 C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Lingo\Lingo\obj\x86\Debug\Lingo.pdb
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Lingo\Lingo\obj\x86\Debug\WindowsApplication1.Ranking.resources
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\Lingo\Lingo\bin\Debug\Lingo.exe.config
