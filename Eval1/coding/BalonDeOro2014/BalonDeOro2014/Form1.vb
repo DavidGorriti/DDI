@@ -53,8 +53,6 @@
             lblPlata.Text = dv(1)("Apellido") & "-" & dv(1)("Votos")
             lblBronce.Text = dv(2)("Apellido") & "-" & dv(2)("Votos")
 
-            'ds.Tables("Jugadores").PrimaryKey = {ds.Tables("Jugadores").Columns("Id")}
-            'cb.GetUpdateCommand()
             da.Update(ds, "Jugadores")
 
             conexion.Close()
