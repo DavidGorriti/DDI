@@ -29,6 +29,13 @@ Partial Class Form1
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.btnLogin = New System.Windows.Forms.Button()
+        Me.cmbP1 = New System.Windows.Forms.ComboBox()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.cmbP2 = New System.Windows.Forms.ComboBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.cmbP3 = New System.Windows.Forms.ComboBox()
+        Me.btnVotar = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'cmbPaises
@@ -90,11 +97,82 @@ Partial Class Form1
         Me.btnLogin.Text = "Acreditar"
         Me.btnLogin.UseVisualStyleBackColor = True
         '
+        'cmbP1
+        '
+        Me.cmbP1.Enabled = False
+        Me.cmbP1.FormattingEnabled = True
+        Me.cmbP1.Location = New System.Drawing.Point(82, 125)
+        Me.cmbP1.Name = "cmbP1"
+        Me.cmbP1.Size = New System.Drawing.Size(121, 21)
+        Me.cmbP1.TabIndex = 7
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(12, 128)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(17, 13)
+        Me.Label4.TabIndex = 8
+        Me.Label4.Text = "1º"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(12, 155)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(17, 13)
+        Me.Label5.TabIndex = 10
+        Me.Label5.Text = "2º"
+        '
+        'cmbP2
+        '
+        Me.cmbP2.Enabled = False
+        Me.cmbP2.FormattingEnabled = True
+        Me.cmbP2.Location = New System.Drawing.Point(82, 152)
+        Me.cmbP2.Name = "cmbP2"
+        Me.cmbP2.Size = New System.Drawing.Size(121, 21)
+        Me.cmbP2.TabIndex = 9
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(12, 182)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(17, 13)
+        Me.Label6.TabIndex = 12
+        Me.Label6.Text = "3º"
+        '
+        'cmbP3
+        '
+        Me.cmbP3.Enabled = False
+        Me.cmbP3.FormattingEnabled = True
+        Me.cmbP3.Location = New System.Drawing.Point(82, 179)
+        Me.cmbP3.Name = "cmbP3"
+        Me.cmbP3.Size = New System.Drawing.Size(121, 21)
+        Me.cmbP3.TabIndex = 11
+        '
+        'btnVotar
+        '
+        Me.btnVotar.Enabled = False
+        Me.btnVotar.Location = New System.Drawing.Point(230, 124)
+        Me.btnVotar.Name = "btnVotar"
+        Me.btnVotar.Size = New System.Drawing.Size(172, 71)
+        Me.btnVotar.TabIndex = 13
+        Me.btnVotar.Text = "Votar"
+        Me.btnVotar.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(446, 262)
+        Me.ClientSize = New System.Drawing.Size(446, 218)
+        Me.Controls.Add(Me.btnVotar)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.cmbP3)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.cmbP2)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.cmbP1)
         Me.Controls.Add(Me.btnLogin)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
@@ -115,5 +193,12 @@ Partial Class Form1
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents btnLogin As System.Windows.Forms.Button
+    Friend WithEvents cmbP1 As System.Windows.Forms.ComboBox
+    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Label5 As System.Windows.Forms.Label
+    Friend WithEvents cmbP2 As System.Windows.Forms.ComboBox
+    Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents cmbP3 As System.Windows.Forms.ComboBox
+    Friend WithEvents btnVotar As System.Windows.Forms.Button
 
 End Class
