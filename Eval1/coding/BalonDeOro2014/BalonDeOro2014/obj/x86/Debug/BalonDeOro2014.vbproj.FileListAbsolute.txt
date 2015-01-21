@@ -1,0 +1,11 @@
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\BalonDeOro2014\BalonDeOro2014\bin\Debug\BalonDeOro2014.exe
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\BalonDeOro2014\BalonDeOro2014\bin\Debug\BalonDeOro2014.pdb
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\BalonDeOro2014\BalonDeOro2014\bin\Debug\BalonDeOro2014.xml
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\BalonDeOro2014\BalonDeOro2014\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\BalonDeOro2014\BalonDeOro2014\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\BalonDeOro2014\BalonDeOro2014\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\BalonDeOro2014\BalonDeOro2014\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\BalonDeOro2014\BalonDeOro2014\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\BalonDeOro2014\BalonDeOro2014\obj\x86\Debug\BalonDeOro2014.exe
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\BalonDeOro2014\BalonDeOro2014\obj\x86\Debug\BalonDeOro2014.xml
+C:\Users\admin\Desktop\RepoCebanc1415\DDI\Eval1\coding\BalonDeOro2014\BalonDeOro2014\obj\x86\Debug\BalonDeOro2014.pdb
